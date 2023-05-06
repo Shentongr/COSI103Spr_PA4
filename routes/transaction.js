@@ -114,7 +114,7 @@ router.get('/transaction/groupByCategory',
                     }
                 ]
             )
-        res.render('summarize', { results })
+        res.render('summarizeByUser', { results })
     }
 )
 
